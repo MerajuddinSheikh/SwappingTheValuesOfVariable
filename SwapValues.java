@@ -7,6 +7,8 @@ public class SwapValues {
         int x = 10;
         int y = 20;
         System.out.println("values before swap");
+        System.out.println(x);
+        System.out.println(y);
         //Getting the result without declaring new variables
         x = x + y;
         y = x - y;
